@@ -1,98 +1,36 @@
+
 body {
     background-color: #f2f2f2;
+    color: #222;
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
 }
 
-h1 {
-    text-align: center;
-    font-size: 36px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 28px;
-}
-
-p {
-    text-align: center;
-    line-height: 1.6;
-}
-
-.header {
+header {
     background-color: #222;
     color: white;
-    padding: 25px;
-}
-
-.footer {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-nav {
-    text-align: center;
-    margin-top: 15px;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-.section-box {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
     border-radius: 10px;
 }
 
-.flex-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+h1 {
+    font-weight: bold;
 }
 
-#songs {
-    border: 2px solid #555;
-    padding: 20px;
+.music-box {
+    background-color: white;
+    border: 2px solid #222;
+    border-radius: 10px;
+    height: 100%;
 }
 
-#albums {
-    border: 2px solid #555;
-    padding: 20px;
+.music-box h2 {
+    margin-bottom: 15px;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    .flex-container {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .section-box {
-        margin: 10px;
-    }
-
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
+.music-box p,
+.music-box li {
+    font-size: 16px;
 }
-nav a:focus {
-    outline: 3px solid white;
-    outline-offset: 3px;
+
+a.btn {
+    margin-top: 10px;
 }
